@@ -1,0 +1,156 @@
+/* General Body and Font Styles */
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header/Navigation Bar Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.logo-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007acc;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input {
+    background-color: #333;
+    border: 1px solid #555;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.download-button, .hero-download-button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover, .hero-download-button:hover {
+    background-color: #005f99;
+}
+
+/* Hero Section Styles */
+.main-content {
+    padding: 20px 200px;
+}
+
+.announcement {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.dev-days-link {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.dev-days-link:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin: 0 0 10px 0;
+}
+
+.hero-text p {
+    font-size: 1em;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.hero-video-container {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 600px;
+}
+
+.hero-video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-actions {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.replay-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
